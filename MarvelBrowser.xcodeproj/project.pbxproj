@@ -14,7 +14,13 @@
 		74CC7A951A1D9036007FCA40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CC7A941A1D9036007FCA40 /* Images.xcassets */; };
 		74CC7A981A1D9036007FCA40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CC7A961A1D9036007FCA40 /* LaunchScreen.xib */; };
 		74CC7AA41A1D9036007FCA40 /* MarvelBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CC7AA31A1D9036007FCA40 /* MarvelBrowserTests.m */; };
+		84B136E71D06358C00FDD57A /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B136E61D06358C00FDD57A /* OCHamcrestIOS.framework */; };
 		84E9C7D81D04F6A40084982D /* MarvelKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9C7D71D04F6A40084982D /* MarvelKeys.m */; };
+		84E9CA581D062D910084982D /* TestingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9CA571D062D910084982D /* TestingAppDelegate.m */; };
+		84E9CA591D062D910084982D /* TestingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9CA571D062D910084982D /* TestingAppDelegate.m */; };
+		84E9CA5C1D0631CA0084982D /* QCOMarvelAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9CA5B1D0631CA0084982D /* QCOMarvelAuthentication.m */; };
+		84E9CA5D1D0631CA0084982D /* QCOMarvelAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9CA5B1D0631CA0084982D /* QCOMarvelAuthentication.m */; };
+		84E9CA5F1D06327F0084982D /* QCOMarvelAuthenticationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9CA5E1D06327F0084982D /* QCOMarvelAuthenticationTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +45,15 @@
 		74CC7A941A1D9036007FCA40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74CC7A971A1D9036007FCA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		74CC7A9D1A1D9036007FCA40 /* MarvelBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74CC7AA21A1D9036007FCA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CC7AA21A1D9036007FCA40 /* Info-Tests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Tests.plist"; sourceTree = "<group>"; };
 		74CC7AA31A1D9036007FCA40 /* MarvelBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelBrowserTests.m; sourceTree = "<group>"; };
+		84B136E61D06358C00FDD57A /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
 		84E9C7D71D04F6A40084982D /* MarvelKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarvelKeys.m; sourceTree = "<group>"; };
+		84E9CA561D062D910084982D /* TestingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingAppDelegate.h; sourceTree = "<group>"; };
+		84E9CA571D062D910084982D /* TestingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestingAppDelegate.m; sourceTree = "<group>"; };
+		84E9CA5A1D0631CA0084982D /* QCOMarvelAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCOMarvelAuthentication.h; sourceTree = "<group>"; };
+		84E9CA5B1D0631CA0084982D /* QCOMarvelAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCOMarvelAuthentication.m; sourceTree = "<group>"; };
+		84E9CA5E1D06327F0084982D /* QCOMarvelAuthenticationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCOMarvelAuthenticationTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B136E71D06358C00FDD57A /* OCHamcrestIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +98,19 @@
 			children = (
 				74CC7A8B1A1D9036007FCA40 /* AppDelegate.h */,
 				74CC7A8C1A1D9036007FCA40 /* AppDelegate.m */,
+				84E9CA561D062D910084982D /* TestingAppDelegate.h */,
+				84E9CA571D062D910084982D /* TestingAppDelegate.m */,
 				74CC7A8E1A1D9036007FCA40 /* ViewController.h */,
 				74CC7A8F1A1D9036007FCA40 /* ViewController.m */,
+				84E9CA5A1D0631CA0084982D /* QCOMarvelAuthentication.h */,
+				84E9CA5B1D0631CA0084982D /* QCOMarvelAuthentication.m */,
+				84E9CA5E1D06327F0084982D /* QCOMarvelAuthenticationTests.m */,
 				84E9C7D71D04F6A40084982D /* MarvelKeys.m */,
+				74CC7AA31A1D9036007FCA40 /* MarvelBrowserTests.m */,
 				74CC7A911A1D9036007FCA40 /* Main.storyboard */,
 				74CC7A941A1D9036007FCA40 /* Images.xcassets */,
 				74CC7A961A1D9036007FCA40 /* LaunchScreen.xib */,
+				84B136E61D06358C00FDD57A /* OCHamcrestIOS.framework */,
 				74CC7A871A1D9036007FCA40 /* Supporting Files */,
 			);
 			path = MarvelBrowser;
@@ -100,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				74CC7A881A1D9036007FCA40 /* Info.plist */,
+				74CC7AA21A1D9036007FCA40 /* Info-Tests.plist */,
 				74CC7A891A1D9036007FCA40 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -108,7 +129,6 @@
 		74CC7AA01A1D9036007FCA40 /* MarvelBrowserTests */ = {
 			isa = PBXGroup;
 			children = (
-				74CC7AA31A1D9036007FCA40 /* MarvelBrowserTests.m */,
 				74CC7AA11A1D9036007FCA40 /* Supporting Files */,
 			);
 			path = MarvelBrowserTests;
@@ -117,7 +137,6 @@
 		74CC7AA11A1D9036007FCA40 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				74CC7AA21A1D9036007FCA40 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -224,7 +243,9 @@
 			files = (
 				74CC7A901A1D9036007FCA40 /* ViewController.m in Sources */,
 				74CC7A8D1A1D9036007FCA40 /* AppDelegate.m in Sources */,
+				84E9CA5C1D0631CA0084982D /* QCOMarvelAuthentication.m in Sources */,
 				84E9C7D81D04F6A40084982D /* MarvelKeys.m in Sources */,
+				84E9CA581D062D910084982D /* TestingAppDelegate.m in Sources */,
 				74CC7A8A1A1D9036007FCA40 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,6 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74CC7AA41A1D9036007FCA40 /* MarvelBrowserTests.m in Sources */,
+				84E9CA591D062D910084982D /* TestingAppDelegate.m in Sources */,
+				84E9CA5F1D06327F0084982D /* QCOMarvelAuthenticationTests.m in Sources */,
+				84E9CA5D1D0631CA0084982D /* QCOMarvelAuthentication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,13 +394,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/MarvelBrowser",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MarvelBrowserTests/Info.plist;
+				INFOPLIST_FILE = "MarvelBrowser/Info-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarvelBrowser.app/MarvelBrowser";
 			};
@@ -389,9 +415,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/MarvelBrowser",
 				);
-				INFOPLIST_FILE = MarvelBrowserTests/Info.plist;
+				INFOPLIST_FILE = "MarvelBrowser/Info-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarvelBrowser.app/MarvelBrowser";
 			};
