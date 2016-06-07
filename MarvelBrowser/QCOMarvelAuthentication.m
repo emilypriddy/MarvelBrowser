@@ -15,4 +15,9 @@
     return @([NSDate date].timeIntervalSinceReferenceDate).stringValue;
 }
 
++(NSString *)publicKey
+{
+    return nil;
+}
+
 @end
